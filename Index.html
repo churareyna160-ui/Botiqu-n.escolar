@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botiquín de Primeros Auxilios</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .contenedor {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 550px;
+            width: 100%;
+        }
+        h1 {
+            color: #006699;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .subtitulo {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .dibujo {
+            font-size: 120px;
+            margin-bottom: 35px;
+            color: #0099cc;
+        }
+        .botones {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            width: 200px;
+            transition: 0.2s;
+        }
+        .boton1 {
+            background: #ff9a9e;
+            color: #880e4f;
+        }
+        .boton2 {
+            background: #a8edea;
+            color: #004d40;
+        }
+        button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>🩹 TU BOTIQUÍN DE CONFIANZA 🩹</h1>
+        <p class="subtitulo">Conoce los elementos esenciales para tus emergencias</p>
+
+        <!-- Dibujo integrado -->
+        <div class="dibujo">🧰</div>
+
+        <div class="botones">
+            <button class="boton1" onclick="window.location.href='venda_gasa.html'">Venda Gasa</button>
+            <button class="boton2" onclick="window.location.href='alergin.html'">Alergin</button>
+        </div>
+    </div>
+</body>
+</html>
